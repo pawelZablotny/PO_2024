@@ -1,0 +1,107 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
+public class Main {
+    public static void main(String[] args){
+
+        //Zadanie 1
+        String name = "PawelZablotny";
+        System.out.println(name);
+
+        //Zadanie 2
+        System.out.println("Długosc I+N: " + name.length());
+
+        //Zadanie 3
+        String w1 = "Ala";
+        String w2 = "ma";
+        String w3 = "kota";
+        String result = w1 + " " + w2 + " " + w3;
+        System.out.println(result);
+
+        //Zadanie 4
+
+        System.out.println("                        *");
+        System.out.println("                        * *");
+        System.out.println("                        * * *");
+        System.out.println("* * * * * * * * * * * * * * * *");
+        System.out.println("* * * * * * * * * * * * * * * * *");
+        System.out.println("* * * * * * * * * * * * * * * *");
+        System.out.println("                        * * *");
+        System.out.println("                        * *");
+        System.out.println("                        *");
+
+        //Zadanie 5
+
+        String zdanie ="Ala ma kota";
+        String zamien = zdanie.replace('a', 'e');
+        System.out.println(zamien);
+
+        //Zadanie 6
+//        String maleduze ="Ala ma kota";
+//        String zamienMD =
+
+        //Zadanie 7
+
+        char[] znaki = {'A', '!', '@', '>', '~', '\n', '\b'};
+        System.out.println("Kody ASCII dla znaków z zadania:");
+        for (char c : znaki){
+            System.out.println(c + " = " + (int) c);
+        }
+
+        //Zadanie 8
+        System.out.println("Przedziały:");
+        System.out.println("Małe litery od 'a' do 'z' = " + (int) 'a' + " - " + (int) 'z' );
+        System.out.println("Duze litery od 'A' do 'Z' = " + (int) 'A' + " - " + (int) 'Z' );
+        System.out.println("Cyfry od '0' do '9' = " + (int) '0' + " - " + (int) '9' );
+
+        //Zadanie 9
+        String zadanie9 = "Grzesiek nie wiedział dlaczego %s jest tak drapieżnym %s mimo, że %s na to nie wskazuje.";
+        System.out.println(zadanie9);
+        String zadanie9New = String.format(zadanie9, "tygrys", "zwierzeciem", "spojrzenie");
+        System.out.println(zadanie9New);
+
+        //Zadanie 10
+        String zadanie10 = "%s to najlepsza książka napisana przez %s.";
+        System.out.println(zadanie10);
+        String zadanie10New = String.format(zadanie10, "Władca Pierścieni", "J.R.R. Tolkiena");
+        System.out.println(zadanie10New);
+
+        //Zadanie 11
+        String word = "wodrze";
+        StringBuilder output = new StringBuilder();
+
+        for (int i = 0; i < 5; i++) {
+            output.append(word);
+            if (i < 4) {
+                output.append(" ");
+            }
+        }
+
+        System.out.println(output.toString());
+
+
+        //Zadanie 12
+        LocalDateTime now = LocalDateTime.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
+        String formattedDateTime = now.format(formatter);
+        System.out.println("Dzisiaj jest " + formattedDateTime);
+
+
+        //Zadanie 13
+        int[] numbers = {54, 103, 241, 67, 9999, "Paweł Zabłotny".length(), 129948};
+        System.out.println("\nZnaki ASCII dla wybranych numerów:");
+        for (int number : numbers) {
+            if (number >= 0 && number <= 255) {
+                System.out.println("Numer " + number + ": znak '" + (char) number + "'");
+            } else {
+                System.out.println("Numer " + number + ": poza zakresem standardowej tablicy ASCII");
+            }
+        }
+
+
+
+
+
+    }
+
+}
