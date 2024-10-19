@@ -1,17 +1,5 @@
 public class Main {
 
-    //Zadanie 1
-    public static void trojkiPitagorejskie(int aa) {
-        for (int a = 1; a <= aa; a++) {
-            for (int b = a; b <= aa; b++) {
-                int c = (int) Math.sqrt(a * a + b * b);
-                if (c <= aa && a * a + b * b == c * c) {
-                    System.out.println(a + "^2 + " + b + "^2 = " + c + "^2");
-                }
-            }
-        }
-    }
-
     //Zadanie14
     public static void trojkatPascala (int n) {
         for (int linia = 0; linia < n; linia++) {
@@ -41,10 +29,6 @@ public class Main {
     }
 
     public static void main(String[] args){
-
-        //Zadanie 1
-        int aa = 12;
-        trojkiPitagorejskie(aa);
 
         //Zadanie 14
         int n = 5;
