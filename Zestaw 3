@@ -1,0 +1,65 @@
+public class Main {
+
+    //Zadanie 1
+    public static void trojkiPitagorejskie(int aa) {
+        for (int a = 1; a <= aa; a++) {
+            for (int b = a; b <= aa; b++) {
+                int c = (int) Math.sqrt(a * a + b * b);
+                if (c <= aa && a * a + b * b == c * c) {
+                    System.out.println(a + "^2 + " + b + "^2 = " + c + "^2");
+                }
+            }
+        }
+    }
+
+    //Zadanie14
+    public static void trojkatPascala (int n) {
+        for (int linia = 0; linia < n; linia++) {
+            int value = 1;
+            for (int i = 0; i <= linia; i++){
+                System.out.print(value + " ");
+                if (i < linia){
+                    value = value * (linia - i) / (i + 1);
+                        }
+                }
+            System.out.println();
+        }
+
+    }
+    //Zadanie 15
+    public static boolean czyPalindrom(int p) {
+        int liczba = p;
+        int odwrocona = 0;
+
+        while (p > 0) {
+            int digit = p % 10;
+            odwrocona = odwrocona * 10 + digit;
+            p /= 10;
+        }
+
+        return liczba == odwrocona;
+    }
+
+    public static void main(String[] args){
+
+        //Zadanie 1
+        int aa = 12;
+        trojkiPitagorejskie(aa);
+
+        //Zadanie 14
+        int n = 5;
+        trojkatPascala(n);
+
+        //Zadanie 15
+        int p = 12321;
+
+        if (czyPalindrom(p)) {
+            System.out.println(p + " jest palindromem.");
+        } else {
+            System.out.println(p + " nie jest palindromem.");
+        }
+
+
+    }
+
+}
