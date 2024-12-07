@@ -1,23 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6c6f1bd4-af8b-4aa1-82b6-0d9488057842" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PO_2024.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Kolokwium1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KoszykZakupowy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produkt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zestaw1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zestaw2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zestaw3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zestaw4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zestaw5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zestaw6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Klient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Platnosc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sklep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zamowienie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zestaw6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zestaw6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,30 +26,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "pawelZablotny"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/pawelZablotny/PO_2024.git",
+    "accountId": "f2ff35fe-e92d-41ee-8ff5-066aed02e30d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2pcqCQhnT0flhX4aL2CX7jR9JCA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Zestaw6.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/zablo/Desktop/java/PO_2024/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Zestaw6.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/zablo/Desktop/java/PO_2024/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1733075586427</updated>
       <workItem from="1733075587554" duration="466000" />
+      <workItem from="1733571884177" duration="823000" />
     </task>
     <servers />
   </component>
