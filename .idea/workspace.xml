@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c6f1bd4-af8b-4aa1-82b6-0d9488057842" name="Changes" comment="rozwiazanie zestawu 6">
-      <change afterPath="$PROJECT_DIR$/src/Adres.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Magazyn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Awokado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KlientFirmowy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KlientIndywidualny.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mango.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Osoba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Owoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Warzywo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KoszykZakupowy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KoszykZakupowy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Platnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Platnosc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Produkt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produkt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sklep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sklep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zamowienie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zamowienie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zestaw6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zestaw6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +88,8 @@
       <workItem from="1733571884177" duration="1081000" />
       <workItem from="1733573127673" duration="10839000" />
       <workItem from="1734105629557" duration="595000" />
-      <workItem from="1734210387021" duration="318000" />
+      <workItem from="1734210387021" duration="599000" />
+      <workItem from="1734211195421" duration="2183000" />
     </task>
     <task id="LOCAL-00001" summary="rozwiazanie zestawu 6">
       <option name="closed" value="true" />
@@ -98,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733572832991</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="rozwiazanie zestawu 6">
+      <option name="closed" value="true" />
+      <created>1734210937342</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734210937342</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

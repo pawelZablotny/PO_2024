@@ -73,15 +73,66 @@ public class Zestaw6 {
         System.out.println();
 
 
-        Adres adres1 = new Adres ("Słoneczna", 21, 2, "Olsztyn", "00-001");
-        Adres adres2 = new Adres ("Słoneczna", 21, 2, "Olsztyn", "00-001");
-        System.out.println("Czy adresy sa sobie rowne?\n" + adres1.equals(adres2));
+        Adres adres12 = new Adres ("Słoneczna", 21, 2, "Olsztyn", "00-001");
+        Adres adres22 = new Adres ("Słoneczna", 21, 2, "Olsztyn", "00-001");
+        System.out.println("Czy adresy sa sobie rowne?\n" + adres12.equals(adres22));
 
 
         System.out.println("Produkt: " + samochod.getNazwa() + ", Cena: " + samochod.getCena() + ", Ilość: " + samochod.getIloscNaMagazynie());
         samochod.setIloscNaMagazynie(15);
         System.out.println("Zaktualizowana ilość: " + samochod.getIloscNaMagazynie());
 
+        System.out.println();
+        System.out.println();
+
+        System.out.println("+++++++++++++ ZESTAW 8 +++++++++++");
+        System.out.println();
+
+        Adres adres1 = new Adres("Główna", 15, "Warszawa", "00-001");
+        Klient klient1 = new Klient("Jan", "Kowalski", adres1);
+
+        System.out.println(klient1);
+        System.out.println();
+
+        Adres adres2 = new Adres("Poboczna", 10, 5, "Kraków", "30-002");
+        klient1.setAdres(adres2);
+
+        System.out.println("Zaktualizowany adres klienta:");
+        System.out.println(klient1);
+
+        System.out.println();
+        System.out.println("+++++++++++++ ZESTAW 8 Zadanie 3 +++++++++++");
+        System.out.println();
+
+        Adres adres001 = new Adres("Żołnierska", 15, "Olsztyn", "10-005");
+        KlientFirmowy klientFirmowy = new KlientFirmowy("Jan", "Kowalski", adres001, "1234567890", "987654321");
+
+
+
+        Adres adres002 = new Adres("Słoneczna", 10, 5, "Olsztyn", "10-000");
+        KlientIndywidualny klientIndywidualny = new KlientIndywidualny("Anna", "Nowak", adres002, "44051401359");
+
+        System.out.println(klientFirmowy);
+        System.out.println();
+        System.out.println(klientIndywidualny);
+
+        System.out.println();
+
+        System.out.println("+++++++++++++ ZESTAW 8 Zadanie 6 +++++++++++");
+        System.out.println();
+
+        Owoc mango = new Mango();
+        Warzywo awokado = new Awokado();
+
+        System.out.println("Mango:");
+        System.out.println("Smak: " + mango.smak());
+        mango.umyj();
+        mango.zjedz();
+
+        System.out.println("\nAwokado:");
+        System.out.println("Smak: " + awokado.smak());
+        awokado.umyj();
+        awokado.zjedz();
 
     }
 }

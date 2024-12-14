@@ -1,35 +1,44 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Klient {
-
-    @Override
-    public int hashCode() {
-        int result = 17;
-        result = 31 * result + (imie == null ? 0 : imie.hashCode());
-        result = 31 * result + (nazwisko == null ? 0 : nazwisko.hashCode());
-        result = 31 * result + (adres == null ? 0: adres.hashCode());
-        return result;
-    }
-    public String imie;
-    public String nazwisko;
-    public Adres adres;
-    public List<Zamowienie> listaZamowien;
+public class Klient extends Osoba {
+    private Adres adres;
+    private List<Zamowienie> listaZamowien;
 
     public Klient(String imie, String nazwisko, Adres adres) {
-        this.imie = imie;
-        this.nazwisko = nazwisko;
+        super(imie, nazwisko); // Wywołanie konstruktora klasy nadrzędnej
+        if (adres == null) {
+            throw new IllegalArgumentException("Adres nie może być null.");
+        }
         this.adres = adres;
         this.listaZamowien = new ArrayList<>();
     }
 
+    public Adres getAdres() {
+        return adres;
+    }
+
+    public void setAdres(Adres adres) {
+        if (adres == null) {
+            throw new IllegalArgumentException("Adres nie może być null.");
+        }
+        this.adres = adres;
+    }
+
+    public List<Zamowienie> getListaZamowien() {
+        return listaZamowien;
+    }
+
     public void dodajZamowienie(Zamowienie zamowienie) {
+        if (zamowienie == null) {
+            throw new IllegalArgumentException("Zamówienie nie może być null.");
+        }
         listaZamowien.add(zamowienie);
-        System.out.println("Dodano zamówienie do klienta: " + imie + " " + nazwisko);
+        System.out.println("Dodano zamówienie do klienta: " + getImie() + " " + getNazwisko());
     }
 
     public void wyswietlHistorieZamowien() {
-        System.out.println("=== Historia zamówień klienta: " + imie + " " + nazwisko + " ===");
+        System.out.println("=== Historia zamówień klienta: " + getImie() + " " + getNazwisko() + " ===");
         if (listaZamowien.isEmpty()) {
             System.out.println("Brak zamówień.");
         } else {
@@ -47,5 +56,10 @@ public class Klient {
             suma += zamowienie.koszykZakupowy.obliczCalkowitaWartosc();
         }
         return suma;
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nAdres:\n" + adres + "\nLiczba zamówień: " + listaZamowien.size();
     }
 }
