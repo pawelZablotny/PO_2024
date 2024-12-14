@@ -2,13 +2,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Klient {
+
+    @Override
+    public int hashCode() {
+        int result = 17;
+        result = 31 * result + (imie == null ? 0 : imie.hashCode());
+        result = 31 * result + (nazwisko == null ? 0 : nazwisko.hashCode());
+        result = 31 * result + (adres == null ? 0: adres.hashCode());
+        return result;
+    }
     public String imie;
     public String nazwisko;
+    public Adres adres;
     public List<Zamowienie> listaZamowien;
 
-    public Klient(String imie, String nazwisko) {
+    public Klient(String imie, String nazwisko, Adres adres) {
         this.imie = imie;
         this.nazwisko = nazwisko;
+        this.adres = adres;
         this.listaZamowien = new ArrayList<>();
     }
 

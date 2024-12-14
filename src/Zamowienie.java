@@ -1,4 +1,11 @@
 public class Zamowienie {
+
+
+    @Override
+    public String toString() {
+        return "Zamowienie: \n" + "Status: " + statusZamowienia + "\n" + "Koszyk: \n"  + "\n" + "Platność: " + platnosc.toString();
+    }
+
     public KoszykZakupowy koszykZakupowy;
     public String statusZamowienia;
     public Platnosc platnosc;

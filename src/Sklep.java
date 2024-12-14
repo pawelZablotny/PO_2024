@@ -2,6 +2,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sklep {
+//    @Override
+//    public String toString() {
+//        return "Sklep: " + nazwaSklepu
+//    }
+
     public List<Produkt> produkty;
 
     public Sklep() {

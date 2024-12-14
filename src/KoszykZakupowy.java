@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class KoszykZakupowy {
+
+
     public List<Produkt> produkty;
     public KoszykZakupowy() {
         produkty = new ArrayList<>();

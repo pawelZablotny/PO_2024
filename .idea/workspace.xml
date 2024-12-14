@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c6f1bd4-af8b-4aa1-82b6-0d9488057842" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Klient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platnosc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sklep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zamowienie.java" afterDir="false" />
+    <list default="true" id="6c6f1bd4-af8b-4aa1-82b6-0d9488057842" name="Changes" comment="rozwiazanie zestawu 6">
+      <change afterPath="$PROJECT_DIR$/src/Adres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Magazyn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KoszykZakupowy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KoszykZakupowy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Platnosc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Platnosc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produkt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produkt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sklep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sklep.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zamowienie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zamowienie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zestaw6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zestaw6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,18 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "pawelZablotny"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;pawelZablotny&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/pawelZablotny/PO_2024.git",
-    "accountId": "f2ff35fe-e92d-41ee-8ff5-066aed02e30d"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/pawelZablotny/PO_2024.git&quot;,
+    &quot;accountId&quot;: &quot;f2ff35fe-e92d-41ee-8ff5-066aed02e30d&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -51,6 +56,7 @@
   &quot;keyToString&quot;: {
     &quot;Application.Zestaw6.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -79,12 +85,28 @@
       <option name="presentableId" value="Default" />
       <updated>1733075586427</updated>
       <workItem from="1733075587554" duration="466000" />
-      <workItem from="1733571884177" duration="823000" />
+      <workItem from="1733571884177" duration="1081000" />
+      <workItem from="1733573127673" duration="10839000" />
+      <workItem from="1734105629557" duration="595000" />
+      <workItem from="1734210387021" duration="318000" />
     </task>
+    <task id="LOCAL-00001" summary="rozwiazanie zestawu 6">
+      <option name="closed" value="true" />
+      <created>1733572832991</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733572832991</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rozwiazanie zestawu 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="rozwiazanie zestawu 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -35,6 +35,8 @@ public class Zestaw6 {
         System.out.println("\n=== Szczegóły zamówienia ===");
         zamowienie.wyswietlZamowienie();
 
+        Adres adres = new Adres ("Słoneczna", 21, "Olsztyn", "00-001");
+
         System.out.println("\n=== Realizacja płatności ===");
         zamowienie.platnosc.zaplac();
 
@@ -47,7 +49,8 @@ public class Zestaw6 {
         System.out.println("\n=== Szczegóły zamówienia po zwrocie ===");
         zamowienie.wyswietlZamowienie();
 
-        Klient klient = new Klient("Jan", "Kowalski");
+        Klient klient = new Klient("Jan", "Kowalski", adres);
+
         klient.dodajZamowienie(zamowienie);
 
         System.out.println("\n=== Historia zamówień klienta ===");
@@ -55,5 +58,30 @@ public class Zestaw6 {
 
         System.out.println("\n=== Łączny koszt zamówień klienta ===");
         System.out.println("Łączny koszt: " + klient.obliczLacznyKosztZamowien() + " PLN");
+
+        System.out.println("\n=== Metoda tu string 7.3 ===");
+        System.out.println();
+
+        System.out.println(samochod.toString());
+        System.out.println(zamowienie.toString());
+        System.out.println(adres.toString());
+
+        System.out.println("Zadanie 10");
+        Produkt samochod1 = new Produkt("BMW", 40000, 20);
+        Produkt samochod2 = new Produkt("Audi", 50000, 10);
+        System.out.println("Czy BMW jest rowny Audi?\n" + samochod.equals(samochod2));
+        System.out.println();
+
+
+        Adres adres1 = new Adres ("Słoneczna", 21, 2, "Olsztyn", "00-001");
+        Adres adres2 = new Adres ("Słoneczna", 21, 2, "Olsztyn", "00-001");
+        System.out.println("Czy adresy sa sobie rowne?\n" + adres1.equals(adres2));
+
+
+        System.out.println("Produkt: " + samochod.getNazwa() + ", Cena: " + samochod.getCena() + ", Ilość: " + samochod.getIloscNaMagazynie());
+        samochod.setIloscNaMagazynie(15);
+        System.out.println("Zaktualizowana ilość: " + samochod.getIloscNaMagazynie());
+
+
     }
 }

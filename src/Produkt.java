@@ -1,5 +1,42 @@
 public class Produkt {
 
+    @Override
+    public String toString() {
+        return "Produkt: " + nazwa + ", Cena: " + cena + ", Ilość na magazynie: " + iloscNaMagazynie;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+        Produkt produkt = (Produkt) obj;
+        return Double.compare(produkt.cena, cena) == 0 && nazwa.equals(produkt.nazwa);
+    }
+
+    public String getNazwa() {
+        return nazwa;
+    }
+
+    public double getCena() {
+        return cena;
+    }
+
+    public int getIloscNaMagazynie() {
+        return iloscNaMagazynie;
+    }
+
+    public void setIloscNaMagazynie(int iloscNaMagazynie) {
+        this.iloscNaMagazynie = iloscNaMagazynie;
+    }
+
+    public int hashCode(){
+        int result = 17;
+        result = 31 * result + (nazwa == null ? 0 : nazwa.hashCode());
+        long cenaBits = Double.doubleToLongBits(cena);
+        result = 31 * result + (int) (cenaBits ^ (cenaBits >>> 32));
+        return result;
+    }
+
     public String nazwa;
     public double  cena;
     public int iloscNaMagazynie;
