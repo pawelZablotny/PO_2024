@@ -1,4 +1,5 @@
 public class KlientFirmowy extends Klient {
+  // zamienić nip i regon na Nip i Regon (duze litery)
     private final String nip;
     private final String regon;
 

@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6c6f1bd4-af8b-4aa1-82b6-0d9488057842" name="Changes" comment="rozwiazanie zestawu 6">
-      <change afterPath="$PROJECT_DIR$/src/Awokado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KlientFirmowy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KlientIndywidualny.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Mango.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Osoba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Owoc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Warzywo.java" afterDir="false" />
+    <list default="true" id="6c6f1bd4-af8b-4aa1-82b6-0d9488057842" name="Changes" comment="zestaw 8">
+      <change afterPath="$PROJECT_DIR$/src/TestOsoba.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Klient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Klient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KlientFirmowy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KlientFirmowy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Mango.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mango.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Zestaw6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zestaw6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,22 +47,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Zestaw6.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/zablo/Desktop/java/PO_2024/src/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Box.executor": "Run",
+    "Application.TestOsoba.executor": "Run",
+    "Application.Zestaw6.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/zablo/Desktop/java/PO_2024/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -89,7 +86,13 @@
       <workItem from="1733573127673" duration="10839000" />
       <workItem from="1734105629557" duration="595000" />
       <workItem from="1734210387021" duration="599000" />
-      <workItem from="1734211195421" duration="2183000" />
+      <workItem from="1734211195421" duration="2497000" />
+      <workItem from="1734213906052" duration="757000" />
+      <workItem from="1734214684094" duration="22000" />
+      <workItem from="1734270971102" duration="1423000" />
+      <workItem from="1734273213590" duration="324000" />
+      <workItem from="1734540186977" duration="2015000" />
+      <workItem from="1736606006717" duration="5121000" />
     </task>
     <task id="LOCAL-00001" summary="rozwiazanie zestawu 6">
       <option name="closed" value="true" />
@@ -107,7 +110,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734210937342</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rozwiazanie zestawu 6">
+      <option name="closed" value="true" />
+      <created>1734213577137</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734213577137</updated>
+    </task>
+    <task id="LOCAL-00004" summary="zestaw 8">
+      <option name="closed" value="true" />
+      <created>1734213675163</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734213675163</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +134,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rozwiazanie zestawu 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="rozwiazanie zestawu 6" />
+    <MESSAGE value="zestaw 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="zestaw 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
